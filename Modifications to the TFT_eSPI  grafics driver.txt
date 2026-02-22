@@ -1,0 +1,17 @@
+My complete setup, which is working good is:
+
+Arduino Nano ESP32 board, which in Arduino IDE is set as Arduino Nano ESP32 from ESP32 by espressif boards v.2.0.14 package. 
+Remember to decide which pin names you are going to use - I suggest to use by GPIO Numbers (legacy), because it is constant 
+for all ESP32.
+
+TFT_eSPI library by Bodmer v2.5.43
+
+Adafruit GFX Library v.1.12.4
+
+Of course it is crucial to properly set in TFT_eSPI library folder (in Arduino Folder) User_Setup_Select.h and in User_Setups 
+folder to properly set all pins depending on your hardware. (You have to take a good look in User_Setups_Select.h - you have 
+to comment User_Setup.h and uncomment one of setups which corresponds to your TFT controller - in my case it is Setup_200_GC9A01.h 
+with correct pins set in that file).
+
+Few minutes ago I’ve installed Arduino IDE in my second laptop, set all as I wrote above and everything works fine. Good luck!
+

@@ -1,0 +1,8 @@
+Bill of Materials 
+
+Proto board if desired
+
+Adafruit BNO085   , Amazon,  (You can also use the GY-BNO085)
+Teensy 4.0 , Amazon
+GC9A01 TFT round lcd, HiLetgo, Amazon
+Cylewet 5Pcs 360 Degree Rotary Encoder Code Switch Digital Potentiometer with Push Button 5 Pins and Knob Cap for Arduino (Pack of 5) CYT1100 , Amazon 
